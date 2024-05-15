@@ -55,8 +55,8 @@ _OLD_VIRTUAL_PATH="$PATH"
 PATH="$VIRTUAL_ENV/Scripts:$PATH"
 export PATH
 
-if [ "xaula17-bootcamp-py3.11" != x ] ; then
-    VIRTUAL_ENV_PROMPT="aula17-bootcamp-py3.11"
+if [ "xaula17-bootcamp-py3.12" != x ] ; then
+    VIRTUAL_ENV_PROMPT="aula17-bootcamp-py3.12"
 else
     VIRTUAL_ENV_PROMPT=$(basename "$VIRTUAL_ENV")
 fi

@@ -70,8 +70,8 @@ set -gx PATH "$VIRTUAL_ENV"'/Scripts' $PATH
 
 # Prompt override provided?
 # If not, just use the environment name.
-if test -n 'aula17-bootcamp-py3.11'
-    set -gx VIRTUAL_ENV_PROMPT 'aula17-bootcamp-py3.11'
+if test -n 'aula17-bootcamp-py3.12'
+    set -gx VIRTUAL_ENV_PROMPT 'aula17-bootcamp-py3.12'
 else
     set -gx VIRTUAL_ENV_PROMPT (basename "$VIRTUAL_ENV")
 end

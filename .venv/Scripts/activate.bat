@@ -1,6 +1,6 @@
 @set "VIRTUAL_ENV=C:\Users\menlo\OneDrive\Área de Trabalho\Documentos\Pessoal\curso_analista_dados\Projetos VScode\aulas_bootcamp\github\aula17_bootcamp\.venv"
 
-@set "VIRTUAL_ENV_PROMPT=aula17-bootcamp-py3.11"
+@set "VIRTUAL_ENV_PROMPT=aula17-bootcamp-py3.12"
 @if NOT DEFINED VIRTUAL_ENV_PROMPT (
     @for %%d in ("%VIRTUAL_ENV%") do @set "VIRTUAL_ENV_PROMPT=%%~nxd"
 )

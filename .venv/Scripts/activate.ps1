@@ -37,8 +37,8 @@ deactivate -nondestructive
 $VIRTUAL_ENV = $BASE_DIR
 $env:VIRTUAL_ENV = $VIRTUAL_ENV
 
-if ("aula17-bootcamp-py3.11" -ne "") {
-    $env:VIRTUAL_ENV_PROMPT = "aula17-bootcamp-py3.11"
+if ("aula17-bootcamp-py3.12" -ne "") {
+    $env:VIRTUAL_ENV_PROMPT = "aula17-bootcamp-py3.12"
 }
 else {
     $env:VIRTUAL_ENV_PROMPT = $( Split-Path $env:VIRTUAL_ENV -Leaf )
